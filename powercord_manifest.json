@@ -1,0 +1,12 @@
+{	
+"name": "name",
+"description": "desc",
+"version": "0.0.0",
+"author": "Leeprky#2063",
+"license": "MIT",
+"theme": "themename-config.css",
+"splashTheme": "splash.css",
+"consent": "true",
+"preview": [""],
+"discord": "Ff3rqAYB89"
+}
