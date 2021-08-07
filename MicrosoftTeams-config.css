@@ -1,0 +1,457 @@
+/* MS Teams Theme - Dev */
+
+@import "https://leeprky.github.io/themes/FullyThemedDiscord/FullyThemedDiscord.css";
+@import "https://leeprky.github.io/themes/BaseStuff/alt-color.css"; 
+@import "https://leeprky.github.io/snippits/coolsniipitsforthemes.css"; 
+@import "https://leeprky.github.io/themes/lode/default/support/gradients/luckfiregradientbuttons.css";
+@import "https://leeprky.github.io/themes/GreenBeGo/greenple-replacer.css";
+
+/* Customize */
+:root {
+    /* Icon Fill Color (Default: white) */
+    --settings-icon-color: var(--alt-color2);
+
+    /* Nitro/Subscriptions Icon Fill (Default: #7289da) */
+    --settings-subscriptions: #7289da;
+    /* Hypesquad Icon Fill (Default: #fbb848) */
+    --settings-hypesquad: #fbb848;
+    /* Logout Icon Fill (Default: #f04747) */
+    --settings-logout: #f04747;
+}
+/* █▀▀ █░█ █▀ ▀█▀ █▀█ █▀▄▀█ █ █▀ ▄▀█ ▀█▀ █ █▀█ █▄░█
+   █▄▄ █▄█ ▄█ ░█░ █▄█ █░▀░█ █ ▄█ █▀█ ░█░ █ █▄█ █░▀█ */
+
+:root {
+
+    /* Gradients */
+    --default-gradient: 315deg, rgba(var(--alt-color), 0.6) 0%, rgba(var(--alt-color), 0.8) 74%;
+    --special-gradient: 315deg, rgba(var(--alt-color), 0.1) 0%, #c987b8 74%;
+    --red-gradient: 315deg, #AA3738 0%, #F04747 74%;
+    --red-hsl: hsl(359, 63%, 53%);
+    --yellow-gradient: 315deg, #c29b1b 0%, #ffa640 74%;
+    --yellow-hsl: hsl(46, 72%, 52%);
+    --green-gradient: 315deg, #507a73 0%, #4b7c72  74%;
+    --grey-gradient: 315deg, rgba(var(--alt-color), 0.6) 0%, rgba(var(--alt-color), 0.8) 74%;
+    --white-gradient: 315deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.342) 74%;
+       
+    /* Transitions */
+    --font-normal: 500;
+    --font-hover: bold;
+    --font-size-hover: 15px;
+    --hover-transition: 0.1s linear;
+    --transform-normal: scale(1);
+    --hover-transform: scale(1.15);
+    --setting-hover-transform: scale(1.025);
+    --button-hover-transform: scale(1.03);
+ 
+    /* Greenple Colour*/
+    --green-color: var(--alt-color2);
+    --green-color2: var(--alt-color);
+    --green-bar-on: #2b3555;
+    --green-bar-bg: var(--green-color);
+    --green-slider-on: var(--green-color);
+    --green-slider-off: #2b3555;
+    --green-slider-dot: #fff;
+
+}
+   
+/*  █▀▄ ▄▀█ █▀█ █▄▀
+    █▄▀ █▀█ █▀▄ █░█ */
+   
+   .theme-dark {
+   
+      --channeltextarea-background: var(--background-secondary);
+   
+      --alt-color: 70, 71, 117;
+      --alt-color2: #464775 ;
+      --alt-color3: 239 ;/* HSL */
+      
+      --playing-color: var(--alt-color2) ;
+      --spotify-color: var(--alt-color2);
+      --streaming-color: rgb(127, 50, 179) ;
+      
+       /* Header Colors */
+       --header-primary: #FFFFFF ;
+       --header-secondary: #c7c7c7 ;
+       --channels-headings: var(--alt-color2) ;
+     
+       /* Text Colours */
+       --text-normal: #F0F0F0 ;
+       --text-muted: #B3B3B3 ;
+       --text-link: var(--alt-color2) ;
+       --channels-default: #dddddd ;
+       --interactive-normal: #F0F0F0 ;
+       --interactive-hover: #F0F0F0 ;
+       --interactive-hover-icons: var(--background-accent2) ;
+       --interactive-active: #fefeff ;
+        --interactive-active-icons: var(--background-accent2) ;
+       --interactive-muted: #585858 ;
+      
+       /* Background Colours */
+       --background-primary: #1F1F1F ;
+       --background-primary-alt: #111111 ;
+       --background-secondary: #141414 ;
+       --background-secondary-alt: #0a0a0a;
+       --background-tertiary: #171717 ;
+       --background-accent: var(--alt-color2) ;
+       --background-floating: #161616 ;
+      
+       /* Mentioned  Colours */
+       --background-mentioned: rgba(var(--alt-color), 0.1) ;
+       --background-mentioned-hover: rgba(var(--alt-color), 0.2) ;
+       --info-warning-foreground: #bdbdbdc5;
+      
+       --background-help-warning: rgba(250,166,26,0.1) ;
+       --background-help-info: rgba(0,176,244,0.1) ;
+      
+       /* Hovering Colours */
+       --background-modifier-hover: rgba(var(--alt-color), 0.2) ;
+       --background-modifier-active: rgba(var(--alt-color), 0.8) ;
+       --background-modifier-selected: rgba(var(--alt-color), 0.5) ; 
+       --background-modifier-accent: rgba(var(--alt-color), 0.1) ;  
+      
+      /* Box Shadow On Floating Elements Colours */
+      --elevation-stroke: 0 0 0 1px rgba(4,4,5,0.15) ;
+      --elevation-low: 0 1px 0 rgba(18, 20, 36, 0.767),0 1.5px 0 rgba(6,6,7,0.05),0 2px 0 rgba(4,4,5,0.05) ;
+      --elevation-medium: 0 4px 4px rgba(0,0,0,0.16) ;
+      --elevation-high: 0 8px 16px rgba(0,0,0,0.24) ;
+      
+      --scrollbar-thin-thumb: #6c6c6c ;
+      --scrollbar-thin-track: #17171700;
+      --scrollbar-auto-thumb: #6c6c6c;
+      --scrollbar-auto-track: #17171700 ;
+      --scrollbar-auto-scrollbar-color-thumb: #6c6c6c ;
+      --scrollbar-auto-scrollbar-color-track: #171717da ;
+          
+      /* Other */
+      --radio-group-dot-foreground: var(--alt-color) ;
+      }
+   
+   
+      /* █░░ █ █▀▀ █░█ ▀█▀
+         █▄▄ █ █▄█ █▀█ ░█░ */
+   
+    .theme-light {
+    
+      --channeltextarea-background: var(--background-secondary);
+     
+      --alt-color: 98, 100, 167;
+      --alt-color2: #6264A7 ;
+      --alt-color3: 238 ;/* HSL */
+      
+      --playing-color: var(--alt-color2) ;
+      --spotify-color: var(--alt-color2) ;
+      --streaming-color: rgb(127, 50, 179) ;
+      
+       /* Header Colors */
+       --header-primary: #1A1A1A ;
+       --header-secondary: #5E5D5F ;
+       --channels-headings: var(--alt-color2) ;
+     
+       /* Text Colours */
+       --text-normal: #3E3E3E ;
+       --text-muted: #949494 ;
+       --text-link: var(--alt-color2) ;
+       --channels-default: #000000 ;
+       --interactive-normal: #555555 ;
+       --interactive-hover: var(--alt-color2) ;
+       --interactive-hover-icons: var(--alt-color2) ;
+       --interactive-active: var(--alt-color2) ;
+        --interactive-active-icons: var(--alt-color2) ;
+       --interactive-muted: #989898 ;
+      
+       /* Background Colours */
+     --background-primary: #F3F3F3 ; 
+     --background-primary-alt: #F3F3F3 ; 
+     --background-secondary: #EBEBEB ; 
+     --background-secondary-alt: #EBEBEB ; 
+     --background-tertiary: rgba(253, 251, 251, 0.979); 
+     --background-accent: var(--alt-color2) ; 
+     --background-floating: #ffffff ; 
+      
+       /* Mentioned  Colours */
+       --background-mentioned: #fcfcfc ; 
+       --background-mentioned-hover: #ebebeb ;
+       --info-warning-foreground: #1f1e1ec5;
+      
+       --background-help-warning: rgba(250,166,26,0.1);
+       --background-help-info: rgba(0,176,244,0.1) ;
+      
+       /* Scrollbar Colours */
+       --background-modifier-hover: rgba(var(--alt-color), 0.2) ;
+       --background-modifier-active: rgba(var(--alt-color), 0.6) ;
+       --background-modifier-selected: rgba(var(--alt-color), 0.4) ; 
+       --background-modifier-accent: rgba(var(--alt-color), 0.1) ;  
+      
+      /* Box Shadow On Floating Elements Colours */
+      --elevation-stroke: 0 0 0 1px rgba(4,4,5,0.15) ;
+
+      --elevation-low: 0 1px 0 rgba(18, 20, 36, 0.767),0 1.5px 0 rgba(6,6,7,0.05),0 2px 0 rgba(4,4,5,0.05);
+      --elevation-medium: 0 4px 4px rgba(0,0,0,0.16) ;
+      --elevation-high: 0 8px 16px rgba(0,0,0,0.24) ;
+      
+      --scrollbar-thin-thumb: #8A8A8A ;
+      --scrollbar-thin-track: #f7f7f700;
+      --scrollbar-auto-thumb: #8A8A8A;
+      --scrollbar-auto-track: #ffffff36 ;
+      --scrollbar-auto-scrollbar-color-thumb: #6c6c6c ;
+      --scrollbar-auto-scrollbar-color-track: #171717da ;
+          
+      /* Other */
+      --radio-group-dot-foreground: var(--alt-color2) ;/* Ignore */
+      }
+
+/* █ █▀▀ █▄░█ █▀█ █▀█ █▀▀
+   █ █▄█ █░▀█ █▄█ █▀▄ ██▄ */
+
+:root {--outdated_microsftteams-001: none; --version: "0.0.1"; --build: "001"}
+
+/* Extended */
+
+/* Center Server List */
+/* [data-list-id="guildsnav"]{
+   display: grid;
+   align-content: center;
+ }
+
+/* ---------------------------------------------
+             ███████╗███╗░░██╗██████╗░
+             ██╔════╝████╗░██║██╔══██╗
+             █████╗░░██╔██╗██║██║░░██║
+             ██╔══╝░░██║╚████║██║░░██║
+             ███████╗██║░╚███║██████╔╝
+             ╚══════╝╚═╝░░╚══╝╚═════╝░
+             ╚══════╝╚═╝░░╚══╝╚═════╝░
+                 Version 1.1.0
+   --------------------------------------------- */
+.appMount-3lHmkl, body, .bg-h5JY_x {
+   background-color: var(--alt-color2);
+}
+.app-1q1i1E, .mobileApp-13Vx-n {
+   margin-top: 44px;
+}
+.winButton-iRh8-Z [aria-hidden="false"][width="12"][height="12"] {
+   margin-top: 4.5px;
+}
+.winButton-iRh8-Z {color:#ffffff; transform: scale(1) };
+.titleBar-AC4pGV > *:nth-child(2):hover {background-color: #E81123; color: #fff;}
+.titleBar-AC4pGV > *:nth-child(3):hover {background-color: #52548b; color: #fff}
+.titleBar-AC4pGV > *:nth-child(4):hover {background-color: #50528a; color: #fff}
+.withFrame-haYltI {
+  padding-top: 10px;
+  height: 0px;
+  width: 200px;
+  right: 0px;
+  position: fixed;
+  border-width: 2px;
+  background-color: transparent;
+}
+.winButton-iRh8-Z {
+  position: relative;
+  z-index: 9999;
+  top: -20px;
+  cursor: pointer;
+  width: 42px;
+  height: 50px;
+  pointer-events: auto;
+  -webkit-app-region: no-drag;
+  background-color: var(--alt-color2);
+}
+/** Replace discord watermark text **/
+.titleBar-AC4pGV {
+   z-index: 1;
+   -webkit-app-region: drag;
+   -ms-flex-negative: 0;
+   flex-shrink: 0;
+}
+.wordmark-2iDDfm:after {
+  content: "Teams";
+  color: #fff;
+  -webkit-app-region: drag;
+  font-size: 12.5px;
+  font-weight: 700;
+  text-indent: 5.5px;
+  position: absolute;
+  z-index: 3000 !important;
+  width: 8000px;
+  height: 46px;
+  z-index: -1;
+  padding: 2px;
+  border-radius: 12px;
+  left: -2500px;
+  top: -10px;
+  padding-left: -1px;
+}
+.wordmark-2iDDfm > svg {
+  width: 0px;
+}
+
+.wrapper-3NnKdC, .scroller-1Bvpku {
+   background-color: var(--background-secondary) !important;
+}
+.sidebar-2K8pFh {
+   border-radius: 0px !important;
+}
+.focused-31_ccS .searchBar-3dMhjb, .open-6_Y_aH .searchBar-3dMhjb {
+   width: 530px;
+}
+.searchBar-3dMhjb {
+   display: fixed;
+   height: 30px;
+   width: 530px;
+   position:fixed;
+   margin-left: -60%;
+   top: 8px;
+   border-radius: 4px;
+   color: #000;
+   -webkit-app-region: no-drag !important;
+   z-index: 9999;
+ }
+ 
+ .search-36MZv- {
+   margin: 0 0px;
+   
+ }
+ .search-2oPWTC .DraftEditor-root .public-DraftEditor-content, .search-2oPWTC .DraftEditor-root .public-DraftEditorPlaceholder-root {
+   left: 25px;
+   top: 4.5px;
+   position: absolute;
+   width: 1000px;
+}
+.search-2oPWTC .DraftEditor-root .public-DraftStyleDefault-block {
+   top: -1.5px;
+}
+ .searchBar-3dMhjb .icon-38sknP {
+   position: relative;
+   left: -260px;
+   top: 2px;
+   background-color: transparent;
+   color: #000 !important;
+}
+.iconContainer-O4O2CN {
+   left: -240px;
+   top: 1px;
+}
+[id="search-results"] {
+   position: fixed !important;
+   left: 710px !important;
+   top: 50px !important;
+   width: 530px !important;
+ }
+
+ .container-3baos1 .avatarWrapper-2yR4wp {
+    position: fixed;
+    top: 5px;
+    right: 125px;
+    -webkit-app-region: no-drag;
+    transform: scale(0.9);
+ }
+ .button-14-BFJ[aria-label="User settings"] {
+   position: fixed;
+   top: 6px;
+   right: 170px;
+   -webkit-app-region: no-drag;
+ }
+
+path[d="M19.738 10H22V14H19.739C19.498 14.931 19.1 15.798 18.565 16.564L20 18L18 20L16.565 18.564C15.797 19.099 14.932 19.498 14 19.738V22H10V19.738C9.069 19.498 8.203 19.099 7.436 18.564L6 20L4 18L5.436 16.564C4.901 15.799 4.502 14.932 4.262 14H2V10H4.262C4.502 9.068 4.9 8.202 5.436 7.436L4 6L6 4L7.436 5.436C8.202 4.9 9.068 4.502 10 4.262V2H14V4.261C14.932 4.502 15.797 4.9 16.565 5.435L18 3.999L20 5.999L18.564 7.436C19.099 8.202 19.498 9.069 19.738 10ZM12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16Z"]{
+   d: path("M7 12.001C7 10.8964 6.10457 10.001 5 10.001C3.89543 10.001 3 10.8964 3 12.001C3 13.1055 3.89543 14.001 5 14.001C6.10457 14.001 7 13.1055 7 12.001ZM14 12.001C14 10.8964 13.1046 10.001 12 10.001C10.8954 10.001 10 10.8964 10 12.001C10 13.1055 10.8954 14.001 12 14.001C13.1046 14.001 14 13.1055 14 12.001ZM19 10.001C20.1046 10.001 21 10.8964 21 12.001C21 13.1055 20.1046 14.001 19 14.001C17.8954 14.001 17 13.1055 17 12.001C17 10.8964 17.8954 10.001 19 10.001Z");
+   color: #fff !important;
+}
+
+
+.theme-light .children-19S4PO:after {
+   background: rgba(58, 58, 58, 0.363);
+   width: 1.5px;
+   margin-left: 12px;
+   border-radius: 4px;
+   height: 60px;
+}
+
+/*message shape*/
+.cozy-3raOZG.wrapper-2a6GCs{padding-top:1px; padding-bottom:1px;}
+.cozyMessage-3V1Y8y:not(.groupStart-23k01U)>.contents-2mQqc9>.markup-2BOw-j:not(:empty){border-radius:6.5px 6.5px 6.5px 6.5px;}
+.contents-2mQqc9>.markup-2BOw-j:not(:empty){
+display:inline-block;
+max-width:650px;
+margin:0;
+padding:8px 12px 7px;
+border-radius:6.5px 6.5px 6.5px 6.5px;
+position:relative;
+overflow:visible;
+}
+/*bubble color*/
+.theme-light [data-is-author-self=false] .markup-2BOw-j:not(:empty){background-color:#E4E6EB;}
+.theme-dark [data-is-author-self=false] .markup-2BOw-j:not(:empty){background-color:#313131;}
+[data-is-author-self=true]>.contents-2mQqc9>.markup-2BOw-j:not(:empty){
+background-image:linear-gradient(rgba(var(--alt-color),0.1),rgba(var(--alt-color),0.8) 10%);
+background-size:cover;
+background-position:center;
+background-attachment:fixed;
+}
+/*text style*/
+.container-3-pyIM *,.contents-2mQqc9>.markup-2BOw-j,.contents-2mQqc9>.markup-2BOw-j>*{
+color:#fff!important;
+font-size:15px;
+line-height:20px;
+font-weight:400;
+}
+.message-2qnXI6.selected-2P5D_Z, .mouse-mode.full-motion .message-2qnXI6:hover {
+   background-color: transparent;
+}
+.theme-light [data-is-author-self=false] .container-3-pyIM *,.theme-light [data-is-author-self=false] .markup-2BOw-j,.theme-light [data-is-author-self=false] .markup-2BOw-j>*{
+color:#000!important;
+}
+/*last rounded corner*/
+.groupStart-23k01U:before,.hasContent-1cNJDh:before,.cozyMessage-3V1Y8y+.scrollerSpacer-avRLaA:before{
+content:"";
+display:block;
+width:20px;
+height:20px;
+background-color:transparent;
+position:absolute;
+border-bottom-left-radius:20px;
+border:5px solid var(--background-primary);
+border-right:0;
+border-top:0;
+}
+.groupStart-23k01U:before{transform:translate(-20%,-156%);}
+.hasContent-1cNJDh:before{left:51px;transform:translateY(-132%);}
+.cozyMessage-3V1Y8y+.scrollerSpacer-avRLaA:before{left:67px; transform:translateY(-84%);}
+.mentioned-xhSam7:before{left:unset; top:unset; bottom:unset;}
+.mentioned-xhSam7+*:before,.isUnread-3Ef-o9.hasContent-1cNJDh+.groupStart-23k01U:before,.hasContent-1cNJDh+.groupStart-23k01U:before,.backgroundFlash-24qWLN:before{visibility:hidden;}
+
+ /* Hidden Avatar and TimeStamp For Author */
+ [data-is-author-self="true"] .avatar-1BDn8e, [data-is-author-self="true"] .headerText-3Uvj1Y, [data-is-author-self="true"] .timestampInline-yHQ6fX   {
+   display:none;
+ }
+ [data-is-author-self="false"] .avatar-1BDn8e {
+    margin-top: 7px;
+ }
+ [data-is-author-self="false"] .timestampInline-yHQ6fX {
+   opacity: 0;
+   transition: 300ms;
+}
+ [data-is-author-self="false"] .timestampInline-yHQ6fX:hover {
+    opacity: 1;
+    transition: 300ms;
+ }
+ .username-1A8OIy {
+   font-weight: 400;
+ }
+ [data-is-author-self="true"] .contents-2mQqc9, [data-is-author-self="true"] .reactions-12N0jA {
+   display: flex;
+   flex-direction: row-reverse; 
+   flex-wrap: wrap-reverse;
+ }
+ [data-is-author-self="true"] .markup-2BOw-j {
+   background-color: #0E0E0E !important;
+   margin-left: 10% !important;
+ }
+ /* Images To Right Side */
+ [data-is-author-self="true"] .container-1ov-mD {
+   display: flex;
+   flex-direction: row-reverse !important; 
+ }
+
+
+
