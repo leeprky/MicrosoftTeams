@@ -1,7 +1,7 @@
 # Microsoft Teams (v0.0.1 - Latest)
 Desc
 
-![preview]()
+![preview](https://i.imgur.com/KTodxvZ.png)
 
 ## How To Install MS Teams Theme?
 
@@ -29,11 +29,18 @@ For **Goosemod** Users:
 
 Darkmode
 
-![preview]()
+![preview](https://i.imgur.com/ueFHwMA.png)
 
 Lightmode
 
-![preview]()
+![preview](https://i.imgur.com/Mx6YHBu.png)
+
+Real Microsoft Teams App
+
+![preview](https://i.imgur.com/PZCD00d.png)
+
+![preview](https://i.imgur.com/XLoe8zq.png)
+!
 
 # Extras 
 
