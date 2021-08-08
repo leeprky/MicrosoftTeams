@@ -1,5 +1,5 @@
-# Microsoft Teams (v0.0.1 - Latest)
-Desc
+# Microsoft Teams (v0.0.6 - Latest)
+Discord Theme Based On MicrosoftTeams Application For Windows11
 
 ![preview](https://i.imgur.com/KTodxvZ.png)
 
