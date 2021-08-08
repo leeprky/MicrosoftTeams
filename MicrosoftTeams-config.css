@@ -1,23 +1,6 @@
 /* MS Teams Theme - Dev */
+@import "https://leeprky.github.io/themes/MicrosoftTeams/master-import.css";
 
-@import "https://leeprky.github.io/themes/FullyThemedDiscord/FullyThemedDiscord.css";
-@import "https://leeprky.github.io/themes/BaseStuff/alt-color.css"; 
-@import "https://leeprky.github.io/snippits/coolsniipitsforthemes.css"; 
-@import "https://leeprky.github.io/themes/lode/default/support/gradients/luckfiregradientbuttons.css";
-@import "https://leeprky.github.io/themes/GreenBeGo/greenple-replacer.css";
-
-/* Customize */
-:root {
-    /* Icon Fill Color (Default: white) */
-    --settings-icon-color: var(--alt-color2);
-
-    /* Nitro/Subscriptions Icon Fill (Default: #7289da) */
-    --settings-subscriptions: #7289da;
-    /* Hypesquad Icon Fill (Default: #fbb848) */
-    --settings-hypesquad: #fbb848;
-    /* Logout Icon Fill (Default: #f04747) */
-    --settings-logout: #f04747;
-}
 /* █▀▀ █░█ █▀ ▀█▀ █▀█ █▀▄▀█ █ █▀ ▄▀█ ▀█▀ █ █▀█ █▄░█
    █▄▄ █▄█ ▄█ ░█░ █▄█ █░▀░█ █ ▄█ █▀█ ░█░ █ █▄█ █░▀█ */
 
@@ -43,16 +26,20 @@
     --hover-transform: scale(1.15);
     --setting-hover-transform: scale(1.025);
     --button-hover-transform: scale(1.03);
+
+    --settings-icon-color: var(--alt-color2);
+    --settings-subscriptions: #7289da;
+    --settings-hypesquad: #fbb848;
+    --settings-logout: #f04747;
  
     /* Greenple Colour*/
     --green-color: var(--alt-color2);
     --green-color2: var(--alt-color);
-    --green-bar-on: #2b3555;
+    --green-bar-on: rgba(var(--alt-color), 0.2);
     --green-bar-bg: var(--green-color);
     --green-slider-on: var(--green-color);
-    --green-slider-off: #2b3555;
+    --green-slider-off: rgba(var(--alt-color), 0.4);
     --green-slider-dot: #fff;
-
 }
    
 /*  █▀▄ ▄▀█ █▀█ █▄▀
@@ -204,15 +191,7 @@
 /* █ █▀▀ █▄░█ █▀█ █▀█ █▀▀
    █ █▄█ █░▀█ █▄█ █▀▄ ██▄ */
 
-:root {--outdated_microsftteams-001: none; --version: "0.0.1"; --build: "001"}
-
-/* Extended */
-
-/* Center Server List */
-/* [data-list-id="guildsnav"]{
-   display: grid;
-   align-content: center;
- }
+:root {--outdated_msteams-002: none; --version: "0.0.6 (BETA)"; --build: "002"}
 
 /* ---------------------------------------------
              ███████╗███╗░░██╗██████╗░
@@ -222,7 +201,7 @@
              ███████╗██║░╚███║██████╔╝
              ╚══════╝╚═╝░░╚══╝╚═════╝░
              ╚══════╝╚═╝░░╚══╝╚═════╝░
-                 Version 1.1.0
+                   Version 0.1
    --------------------------------------------- */
 .appMount-3lHmkl, body, .bg-h5JY_x {
    background-color: var(--alt-color2);
@@ -355,6 +334,16 @@
  .button-14-BFJ:hover {
    color: #fff !important;
  }
+ .button-14-BFJ[aria-label="User settings"]::before {
+   content: "v" var(--version);
+   font-size: 13px;
+   font-weight: 400;
+   position: fixed;
+   display: var(--version-display);
+   top: 21px;
+   right: 205px;
+   -webkit-app-region: no-drag;
+ }
 
 path[d="M19.738 10H22V14H19.739C19.498 14.931 19.1 15.798 18.565 16.564L20 18L18 20L16.565 18.564C15.797 19.099 14.932 19.498 14 19.738V22H10V19.738C9.069 19.498 8.203 19.099 7.436 18.564L6 20L4 18L5.436 16.564C4.901 15.799 4.502 14.932 4.262 14H2V10H4.262C4.502 9.068 4.9 8.202 5.436 7.436L4 6L6 4L7.436 5.436C8.202 4.9 9.068 4.502 10 4.262V2H14V4.261C14.932 4.502 15.797 4.9 16.565 5.435L18 3.999L20 5.999L18.564 7.436C19.099 8.202 19.498 9.069 19.738 10ZM12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16Z"]{
    d: path("M7 12.001C7 10.8964 6.10457 10.001 5 10.001C3.89543 10.001 3 10.8964 3 12.001C3 13.1055 3.89543 14.001 5 14.001C6.10457 14.001 7 13.1055 7 12.001ZM14 12.001C14 10.8964 13.1046 10.001 12 10.001C10.8954 10.001 10 10.8964 10 12.001C10 13.1055 10.8954 14.001 12 14.001C13.1046 14.001 14 13.1055 14 12.001ZM19 10.001C20.1046 10.001 21 10.8964 21 12.001C21 13.1055 20.1046 14.001 19 14.001C17.8954 14.001 17 13.1055 17 12.001C17 10.8964 17.8954 10.001 19 10.001Z");
@@ -405,18 +394,6 @@ font-weight:400;
 color:#000!important;
 }
 /*last rounded corner*/
-.groupStart-23k01U:before,.hasContent-1cNJDh:before,.cozyMessage-3V1Y8y+.scrollerSpacer-avRLaA:before{
-content:"";
-display:block;
-width:20px;
-height:20px;
-background-color:transparent;
-position:absolute;
-border-bottom-left-radius:20px;
-border:5px solid var(--background-primary);
-border-right:0;
-border-top:0;
-}
 .groupStart-23k01U:before{transform:translate(-20%,-156%);}
 .hasContent-1cNJDh:before{left:51px;transform:translateY(-132%);}
 .cozyMessage-3V1Y8y+.scrollerSpacer-avRLaA:before{left:67px; transform:translateY(-84%);}
@@ -428,7 +405,7 @@ border-top:0;
    display:none;
  }
  [data-is-author-self="false"] .avatar-1BDn8e {
-    margin-top: 7px;
+    margin-top: 0px;
  }
  [data-is-author-self="false"] .timestampInline-yHQ6fX {
    opacity: 0;
@@ -456,8 +433,14 @@ border-top:0;
    flex-direction: row-reverse !important; 
  }
 
+.contents-2mQqc9 .channelTextArea-3bF57p {
+   width: 600px;
+   background-color: transparent !important;
+}
 
-
+.zalgo-jN1Ica.cozy-3raOZG .header-23xsNx {
+   bottom: 3px;
+}
 
  .scrollableContainer-2NUZem {
     box-shadow: 0px 2px var(--alt-color2);
@@ -491,4 +474,23 @@ border-top:0;
    left: 328px;
    transform: scale(0.85);
    position: fixed;
+}
+
+
+.powercord-spotify{
+   left: 10px;
+   width:225px;
+   height: 1px;
+   top:-4px;
+   position:fixed
+}
+.spotify-artist {
+   margin-left: 1px;
+}
+
+
+.powercord-spotify .spotify-buttons{display:none}
+.powercord-spotify.hover .spotify-buttons{display:none!important}
+.powercord-spotify.hover .spotify-extra-controls , .powercord-spotify .spotify-extra-controls + .spotify-seek{
+   display: none;
 }
