@@ -1,5 +1,6 @@
 /* MS Teams Theme - Dev */
 @import "https://leeprky.github.io/themes/MicrosoftTeams/master-import.css";
+@import url('https://snappercord.github.io/Settings-Icons/source.css');
 
 /* █▀▀ █░█ █▀ ▀█▀ █▀█ █▀▄▀█ █ █▀ ▄▀█ ▀█▀ █ █▀█ █▄░█
    █▄▄ █▄█ ▄█ ░█░ █▄█ █░▀░█ █ ▄█ █▀█ ░█░ █ █▄█ █░▀█ */
@@ -46,6 +47,14 @@
     --red: #B1273E;
     --yellow: #FDB913;
     --green: #92C353;
+
+    --settings-icon-color: white;
+    --settings-subscriptions: white;
+    --settings-hypesquad: var(--yellow);
+    --settings-logout: var(--red);
+    --settings-alt-focused: white;
+    --settings-guild-premium: #7289da;
+    --settings-guild-delete: var(--red);
 }
 
 /*  █▀▄ ▄▀█ █▀█ █▄▀
@@ -109,9 +118,9 @@
       --elevation-medium: 0 4px 4px rgba(0,0,0,0.16) ;
       --elevation-high: 0 8px 16px rgba(0,0,0,0.24) ;
       
-      --scrollbar-thin-thumb: #6c6c6c ;
+      --scrollbar-thin-thumb: #797979;
       --scrollbar-thin-track: #17171700;
-      --scrollbar-auto-thumb: #6c6c6c;
+      --scrollbar-auto-thumb: #797979;
       --scrollbar-auto-track: #17171700 ;
       --scrollbar-auto-scrollbar-color-thumb: #6c6c6c ;
       --scrollbar-auto-scrollbar-color-track: #171717da ;
@@ -326,12 +335,7 @@
    left: -240px;
    top: 1px;
 }
-[id="search-results"] {
-   position: fixed !important;
-   left: 710px !important;
-   top: 50px !important;
-   width: 530px !important;
- }
+
 
  .container-3baos1 .avatarWrapper-2yR4wp {
     position: fixed;
@@ -531,7 +535,7 @@ color:#000!important;
 [mask="url(#svg-mask-status-dnd)"], [mask="url(#svg-mask-status-dnd-mobile)"]  {
    fill: var(--red) !important;
 }
-.status-1AY8sU[style="background-color: hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%);"] {
+.status-1AY8sU[style="background-color: hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%);"], .statusOnline-8PnF5L {
       background-color: var(--green) !important;
 }
 .status-1AY8sU[style="background-color: hsl(38, calc(var(--saturation-factor, 1) * 95.7%), 54.1%);"] {
@@ -540,3 +544,61 @@ color:#000!important;
 .status-1AY8sU[style="background-color: hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%);"] {
    background-color: var(--red) !important;
 }
+
+.sidebarRegion-VFTUkN {
+   flex-grow: 0;
+ }
+ 
+ .contentColumnDefault-1VQkGM {
+   max-width: calc(100% - 60px);
+ }
+ 
+
+ .contentRegion-3nDuYy .contentColumn-2hrIYH {
+   max-width: 100%;
+ }
+ .contentRegion-3nDuYy .contentColumn-2hrIYH .features-2npk2D .video-34IsHk {
+   width: fit-content;
+   margin-right: auto;
+   margin-left: auto;
+ }
+ .contentRegion-3nDuYy .contentColumn-2hrIYH .features-2npk2D .feature-BGH8y4 > div:last-child {
+   width: 100%;
+ }
+ .contentRegion-3nDuYy .contentColumn-2hrIYH .features-2npk2D .feature-BGH8y4 > div:last-child > .title-PMZpEi, .contentRegion-3nDuYy .contentColumn-2hrIYH .features-2npk2D .feature-BGH8y4 > div:last-child .description-1W0DiL {
+   text-align: end;
+ }
+ .contentRegion-3nDuYy .contentColumn-2hrIYH .attendeeCTA-3ZZQWt {
+   border: 0;
+ }
+ .contentRegion-3nDuYy .content-1rPSz4 {
+   max-width: 100%;
+ }
+ .contentRegion-3nDuYy .customColumn-Rb6toI {
+   max-width: 100%;
+ }
+ .contentRegion-3nDuYy .customColumn-Rb6toI .customScroller-26gWhv > .flex-1xMQg5 {
+   max-width: 100%;
+ }
+ .contentRegion-3nDuYy .customColumn-Rb6toI .content-3YMskv {
+   max-width: 100%;
+ }
+ .customScroller-26gWhv>div {
+   max-width: 100%;
+ }
+
+ .layers-3iHuyZ>.layer-3QrUeG{
+   opacity: 1 !important;
+ }
+ .layers-3iHuyZ>.layer-3QrUeG:nth-child(2),.perksModal-fSYqOq{
+   background-color: #464775b0 !important;
+   backdrop-filter: blur(15px);
+ }
+ .contentRegionScroller-26nc1e,.contentRegion-3nDuYy,.standardSidebarView-3F1I7i,
+ .sidebarRegionScroller-3MXcoP{
+   background: transparent;
+ }
+
+ .container-23jqbX .list-I3aHXn .side-8zPYf6 [class="row-3GRgeK item-PXvHYJ themed-OHr7kt"]::before, [class="row-3GRgeK item-PXvHYJ selected-3s45Ha themed-OHr7kt"]::before {
+    display: none;
+ }
