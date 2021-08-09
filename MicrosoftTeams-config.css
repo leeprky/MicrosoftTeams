@@ -35,13 +35,19 @@
     /* Greenple Colour*/
     --green-color: var(--alt-color2);
     --green-color2: var(--alt-color);
-    --green-bar-on: rgba(var(--alt-color), 0.2);
+    --green-bar-on: rgba(var(--alt-color), 0.3);
     --green-bar-bg: var(--green-color);
     --green-slider-on: var(--green-color);
     --green-slider-off: rgba(var(--alt-color), 0.4);
     --green-slider-dot: #fff;
+
+    /* Status Colours */
+    --purple: #464775;
+    --red: #B1273E;
+    --yellow: #FDB913;
+    --green: #92C353;
 }
-   
+
 /*  █▀▄ ▄▀█ █▀█ █▄▀
     █▄▀ █▀█ █▀▄ █░█ */
    
@@ -191,7 +197,7 @@
 /* █ █▀▀ █▄░█ █▀█ █▀█ █▀▀
    █ █▄█ █░▀█ █▄█ █▀▄ ██▄ */
 
-:root {--outdated_msteams-002: none; --version: "0.0.6 (BETA)"; --build: "002"}
+:root {--outdated_msteams-002: none !important; --version: "0.0.6 (BETA)" !important; --build: "002" !important}
 
 /* ---------------------------------------------
              ███████╗███╗░░██╗██████╗░
@@ -201,8 +207,9 @@
              ███████╗██║░╚███║██████╔╝
              ╚══════╝╚═╝░░╚══╝╚═════╝░
              ╚══════╝╚═╝░░╚══╝╚═════╝░
-                   Version 0.1
+                 Version 1.1.0
    --------------------------------------------- */
+
 .appMount-3lHmkl, body, .bg-h5JY_x {
    background-color: var(--alt-color2);
 }
@@ -265,12 +272,20 @@
   width: 0px;
 }
 
-.wrapper-3NnKdC, .scroller-1Bvpku {
-   background-color: var(--background-secondary) !important;
+.theme-dark .wrapper-3NnKdC, .theme-dark .scroller-1Bvpku {
+   background-color: #000 !important;
+}
+.theme-light .wrapper-3NnKdC, .theme-light .scroller-1Bvpku {
+   background-color: #fff !important;
+}
+.members-1998pB, .members-1998pB>div {
+   background-color: var(--background-primary);
 }
 .sidebar-2K8pFh {
    border-radius: 0px !important;
+   width: 315px;
 }
+
 .focused-31_ccS .searchBar-3dMhjb, .open-6_Y_aH .searchBar-3dMhjb {
    width: 530px;
 }
@@ -339,6 +354,7 @@
    font-size: 13px;
    font-weight: 400;
    position: fixed;
+   color: #fff;
    display: var(--version-display);
    top: 21px;
    right: 205px;
@@ -452,26 +468,26 @@ color:#000!important;
 
 .button-38aScr[aria-label="Send a gift"] {
    bottom: 2px;
-   left: 385px;
+   left: 450px;
    transform: scale(0.85);
    position: fixed;
 }
 .button-38aScr[aria-label="Select emoji"] {
    bottom: 5px;
-   left: 414px;;
+   left: 477px;;
    transform: scale(0.85);
    position: fixed;
 }
 [aria-label="Open sticker picker"] {
    bottom: 3px;
-   left: 360px;
+   left: 425px;
    transform: scale(0.85);
    position: fixed;
 }
 
 [aria-label="Open GIF picker"] {
    bottom: 1px;
-   left: 328px;
+   left: 395px;
    transform: scale(0.85);
    position: fixed;
 }
@@ -482,15 +498,45 @@ color:#000!important;
    width:225px;
    height: 1px;
    top:-4px;
-   position:fixed
+   position:fixed;
 }
 .spotify-artist {
    margin-left: 1px;
+   color: #fff;
 }
-
+.title-eS5yk3 {
+   color: #fff;
+}
 
 .powercord-spotify .spotify-buttons{display:none}
 .powercord-spotify.hover .spotify-buttons{display:none!important}
 .powercord-spotify.hover .spotify-extra-controls , .powercord-spotify .spotify-extra-controls + .spotify-seek{
    display: none;
+}
+.spotify-avatar {
+   display: none;
+}
+
+
+.container-1r6BKw.themed-ANHk51, .header-2V-4Sw {
+   height: 55px;
+}
+
+[mask="url(#svg-mask-status-online)"], [mask="url(#svg-mask-status-online-mobile)"] {
+   fill: var(--green) !important;
+}
+[mask="url(#svg-mask-status-idle)"], [mask="url(#svg-mask-status-idle-mobile)"]  {
+   fill: var(--yellow) !important;
+}
+[mask="url(#svg-mask-status-dnd)"], [mask="url(#svg-mask-status-dnd-mobile)"]  {
+   fill: var(--red) !important;
+}
+.status-1AY8sU[style="background-color: hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%);"] {
+      background-color: var(--green) !important;
+}
+.status-1AY8sU[style="background-color: hsl(38, calc(var(--saturation-factor, 1) * 95.7%), 54.1%);"] {
+   background-color: var(--yellow) !important;
+}
+.status-1AY8sU[style="background-color: hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%);"] {
+   background-color: var(--red) !important;
 }
