@@ -1,7 +1,7 @@
 # Microsoft Teams (v0.0.7 - Latest)
 Discord Theme Based On MicrosoftTeams Application For Windows11
 
-![preview](https://i.imgur.com/KTodxvZ.png)
+![preview](https://i.imgur.com/4UTHoGb.png)
 
 ## How To Install MS Teams Theme?
 
@@ -17,7 +17,7 @@ cd powercord/src/Powercord/themes && git clone https://github.com/leeprky/Micros
 
 For **Betterdiscord** Users:
 
-1. CLick > [Download]()
+1. CLick > [Download](https://raw.githubusercontent.com/leeprky/MicrosoftTeams/main/source/support/betterdiscord/MicrosftsoftTeams.theme.css)
 2. Download Raw
 
 For **Goosemod** Users:
