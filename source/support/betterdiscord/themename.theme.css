@@ -1,12 +1,208 @@
 /**
- * @name name
+ * @name MicrosoftTeams
  * @author Leeprky#2063
- * @version .0.0.0
- * @description desc
- * @source https://github.com/leeprky/name
+ * @version 0.0.7
+ * @description (ALPHA)
+ * @source https://github.com/leeprky/MicrosoftTeams
  * @updateUrl 
  * @authorId 224524143482241035
  * @invite Ff3rqAYB89
  * @donate https://www.paypal.com/paypalme/leeparkinson22
  * @website https://leeprky.github.io/
 */
+
+/* MS Teams Theme - Dev */
+@import "https://leeprky.github.io/themes/MicrosoftTeams/master-import.css";
+@import url('https://snappercord.github.io/Settings-Icons/source.css');
+:root {--outdated_msteams-003: none !important; --version: "0.0.7 (ALPHA)" !important; --build: "003" !important}
+
+:root {
+
+    /* Gradients */
+    --default-gradient: 315deg, rgba(var(--alt-color), 0.6) 0%, rgba(var(--alt-color), 0.8) 74%;
+    --special-gradient: 315deg, rgba(var(--alt-color), 0.1) 0%, #c987b8 74%;
+    --red-gradient: 315deg, #AA3738 0%, #F04747 74%;
+    --red-hsl: hsl(359, 63%, 53%);
+    --yellow-gradient: 315deg, #c29b1b 0%, #ffa640 74%;
+    --yellow-hsl: hsl(46, 72%, 52%);
+    --green-gradient: 315deg, #507a73 0%, #4b7c72  74%;
+    --grey-gradient: 315deg, rgba(var(--alt-color), 0.6) 0%, rgba(var(--alt-color), 0.8) 74%;
+    --white-gradient: 315deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.342) 74%;
+       
+    /* Transitions */
+    --font-normal: 500;
+    --font-hover: bold;
+    --font-size-hover: 15px;
+    --hover-transition: 0.1s linear;
+    --transform-normal: scale(1);
+    --hover-transform: scale(1.15);
+    --setting-hover-transform: scale(1.025);
+    --button-hover-transform: scale(1.03);
+
+    --settings-icon-color: var(--alt-color2);
+    --settings-subscriptions: #7289da;
+    --settings-hypesquad: #fbb848;
+    --settings-logout: #f04747;
+ 
+    /* Greenple Colour*/
+    --green-color: var(--alt-color2);
+    --green-color2: var(--alt-color);
+    --green-bar-on: rgba(var(--alt-color), 0.3);
+    --green-bar-bg: var(--green-color);
+    --green-slider-on: var(--green-color);
+    --green-slider-off: rgba(var(--alt-color), 0.4);
+    --green-slider-dot: #fff;
+
+    /* Status Colours */
+    --purple: #464775;
+    --red: #B1273E;
+    --yellow: #FDB913;
+    --green: #92C353;
+
+    --settings-icon-color: white;
+    --settings-subscriptions: white;
+    --settings-hypesquad: var(--yellow);
+    --settings-logout: var(--red);
+    --settings-alt-focused: white;
+    --settings-guild-premium: #7289da;
+    --settings-guild-delete: var(--red);
+}
+   
+   .theme-dark {
+   
+      --channeltextarea-background: var(--background-secondary);
+   
+      --alt-color: 70, 71, 117;
+      --alt-color2: #464775 ;
+      --alt-color3: 239 ;/* HSL */
+      
+      --playing-color: var(--alt-color2) ;
+      --spotify-color: var(--alt-color2);
+      --streaming-color: rgb(127, 50, 179) ;
+      
+       /* Header Colors */
+       --header-primary: #FFFFFF ;
+       --header-secondary: #c7c7c7 ;
+       --channels-headings: var(--alt-color2) ;
+     
+       /* Text Colours */
+       --text-normal: #F0F0F0 ;
+       --text-muted: #B3B3B3 ;
+       --text-link: var(--alt-color2) ;
+       --channels-default: #dddddd ;
+       --interactive-normal: #F0F0F0 ;
+       --interactive-hover: #F0F0F0 ;
+       --interactive-hover-icons: var(--background-accent2) ;
+       --interactive-active: #fefeff ;
+        --interactive-active-icons: var(--background-accent2) ;
+       --interactive-muted: #585858 ;
+      
+       /* Background Colours */
+       --background-primary: #1F1F1F ;
+       --background-primary-alt: #111111 ;
+       --background-secondary: #141414 ;
+       --background-secondary-alt: #0a0a0a;
+       --background-tertiary: #171717 ;
+       --background-accent: var(--alt-color2) ;
+       --background-floating: #161616 ;
+      
+       /* Mentioned  Colours */
+       --background-mentioned: rgba(var(--alt-color), 0.1) ;
+       --background-mentioned-hover: rgba(var(--alt-color), 0.2) ;
+       --info-warning-foreground: #bdbdbdc5;
+      
+       --background-help-warning: rgba(250,166,26,0.1) ;
+       --background-help-info: rgba(0,176,244,0.1) ;
+      
+       /* Hovering Colours */
+       --background-modifier-hover: rgba(var(--alt-color), 0.2) ;
+       --background-modifier-active: rgba(var(--alt-color), 0.8) ;
+       --background-modifier-selected: rgba(var(--alt-color), 0.5) ; 
+       --background-modifier-accent: rgba(var(--alt-color), 0.1) ;  
+      
+      /* Box Shadow On Floating Elements Colours */
+      --elevation-stroke: 0 0 0 1px rgba(4,4,5,0.15) ;
+      --elevation-low: 0 1px 0 rgba(18, 20, 36, 0.767),0 1.5px 0 rgba(6,6,7,0.05),0 2px 0 rgba(4,4,5,0.05) ;
+      --elevation-medium: 0 4px 4px rgba(0,0,0,0.16) ;
+      --elevation-high: 0 8px 16px rgba(0,0,0,0.24) ;
+      
+      --scrollbar-thin-thumb: #797979;
+      --scrollbar-thin-track: #17171700;
+      --scrollbar-auto-thumb: #797979;
+      --scrollbar-auto-track: #17171700 ;
+      --scrollbar-auto-scrollbar-color-thumb: #6c6c6c ;
+      --scrollbar-auto-scrollbar-color-track: #171717da ;
+          
+      /* Other */
+      --radio-group-dot-foreground: var(--alt-color) ;
+      }
+   
+    .theme-light {
+    
+      --channeltextarea-background: var(--background-secondary);
+     
+      --alt-color: 98, 100, 167;
+      --alt-color2: #6264A7 ;
+      --alt-color3: 238 ;/* HSL */
+      
+      --playing-color: var(--alt-color2) ;
+      --spotify-color: var(--alt-color2) ;
+      --streaming-color: rgb(127, 50, 179) ;
+      
+       /* Header Colors */
+       --header-primary: #1A1A1A ;
+       --header-secondary: #5E5D5F ;
+       --channels-headings: var(--alt-color2) ;
+     
+       /* Text Colours */
+       --text-normal: #3E3E3E ;
+       --text-muted: #949494 ;
+       --text-link: var(--alt-color2) ;
+       --channels-default: #000000 ;
+       --interactive-normal: #555555 ;
+       --interactive-hover: var(--alt-color2) ;
+       --interactive-hover-icons: var(--alt-color2) ;
+       --interactive-active: var(--alt-color2) ;
+        --interactive-active-icons: var(--alt-color2) ;
+       --interactive-muted: #989898 ;
+      
+       /* Background Colours */
+     --background-primary: #F3F3F3 ; 
+     --background-primary-alt: #F3F3F3 ; 
+     --background-secondary: #EBEBEB ; 
+     --background-secondary-alt: #EBEBEB ; 
+     --background-tertiary: rgba(253, 251, 251, 0.979); 
+     --background-accent: var(--alt-color2) ; 
+     --background-floating: #ffffff ; 
+      
+       /* Mentioned  Colours */
+       --background-mentioned: #fcfcfc ; 
+       --background-mentioned-hover: #ebebeb ;
+       --info-warning-foreground: #1f1e1ec5;
+      
+       --background-help-warning: rgba(250,166,26,0.1);
+       --background-help-info: rgba(0,176,244,0.1) ;
+      
+       /* Scrollbar Colours */
+       --background-modifier-hover: rgba(var(--alt-color), 0.2) ;
+       --background-modifier-active: rgba(var(--alt-color), 0.6) ;
+       --background-modifier-selected: rgba(var(--alt-color), 0.4) ; 
+       --background-modifier-accent: rgba(var(--alt-color), 0.1) ;  
+      
+      /* Box Shadow On Floating Elements Colours */
+      --elevation-stroke: 0 0 0 1px rgba(4,4,5,0.15) ;
+
+      --elevation-low: 0 1px 0 rgba(18, 20, 36, 0.767),0 1.5px 0 rgba(6,6,7,0.05),0 2px 0 rgba(4,4,5,0.05);
+      --elevation-medium: 0 4px 4px rgba(0,0,0,0.16) ;
+      --elevation-high: 0 8px 16px rgba(0,0,0,0.24) ;
+      
+      --scrollbar-thin-thumb: #8A8A8A ;
+      --scrollbar-thin-track: #f7f7f700;
+      --scrollbar-auto-thumb: #8A8A8A;
+      --scrollbar-auto-track: #ffffff36 ;
+      --scrollbar-auto-scrollbar-color-thumb: #6c6c6c ;
+      --scrollbar-auto-scrollbar-color-track: #171717da ;
+          
+      /* Other */
+      --radio-group-dot-foreground: var(--alt-color2) ;/* Ignore */
+      }
