@@ -1,4 +1,4 @@
-# Microsoft Teams (v0.0.6 - Latest)
+# Microsoft Teams (v0.0.7 - Latest)
 Discord Theme Based On MicrosoftTeams Application For Windows11
 
 ![preview](https://i.imgur.com/KTodxvZ.png)
