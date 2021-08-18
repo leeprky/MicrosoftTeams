@@ -1,6 +1,8 @@
 /* MS Teams Theme - Dev */
 @import "https://leeprky.github.io/themes/MicrosoftTeams/master-import.css";
-@import url('https://snappercord.github.io/Settings-Icons/source.css');:root {--outdated_msteams-004: none !important; --version: "0.0.8 (ALPHA)" !important; --build: "004" !important}
+@import url('https://snappercord.github.io/Settings-Icons/source.css');
+
+:root {--outdated_msteams-004: none !important; --version: "0.0.8 (ALPHA)" !important; --build: "004" !important}
 
 :root {
 
@@ -81,6 +83,7 @@
        --text-normal: #F0F0F0 ;
        --text-muted: #B3B3B3 ;
        --text-link: var(--alt-color2) ;
+       --text-link-self: #989bff ;
        --channels-default: #dddddd ;
        --interactive-normal: #F0F0F0 ;
        --interactive-hover: #F0F0F0 ;
