@@ -27,6 +27,10 @@ For **Goosemod** Users:
 
 # Screenshots
 
+Rainbow Bar
+
+![preview](https://gyazo.com/58ca13a1976ed2e00a612955142c4ad8)
+
 Red
 
 ![preview](https://cdn.discordapp.com/attachments/826113708957761556/878971482745765908/unknown.png)
