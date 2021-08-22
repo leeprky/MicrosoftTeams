@@ -15,6 +15,11 @@
 @import url('https://snappercord.github.io/Settings-Icons/source.css');
 @import url(https://raw.githack.com/mwittrien/BetterDiscordAddons/master/Themes/BlurpleRecolor/BlurpleRecolor.css);
 
+/* MS Teams Theme - Dev */
+@import "https://leeprky.github.io/themes/MicrosoftTeams/master-import.css";
+@import url('https://snappercord.github.io/Settings-Icons/source.css');
+@import url(https://raw.githack.com/mwittrien/BetterDiscordAddons/master/Themes/BlurpleRecolor/BlurpleRecolor.css);
+
 
 /*
 
@@ -68,19 +73,19 @@ DARKMODE
   --button-interactive-muted: #585858;
 
   /* Backgrounds */
-  --main-background: #1f1f1f ;
+  --main-background: #1f1f1f;
   --main-background-alternative: #111111;
-  --secondary-background: #141414 ;
-  --secondary-background-alternative: #0a0a0a;;
+  --secondary-background: #141414;
+  --secondary-background-alternative: #0a0a0a;
   --tertiary: #171717;
   --accent: var(--alt-color2);
   --floating: #161616;
 
   /* Hovering Colours */
-  --main-hover: rgba(var(--alt-color), 0.2) ;
-  --main-hover-active: rgba(var(--alt-color), 0.8) ;
-  --main-hover-selected: rgba(var(--alt-color), 0.5) ; 
-  --main-hover-accent: rgba(var(--alt-color), 0.1) ; 
+  --main-hover: rgba(var(--alt-color), 0.2);
+  --main-hover-active: rgba(var(--alt-color), 0.8);
+  --main-hover-selected: rgba(var(--alt-color), 0.5); 
+  --main-hover-accent: rgba(var(--alt-color), 0.1); 
 
   /* Channel Indicators */
   --connected: 108, 95, 135; /* RGB ONLY */
@@ -96,10 +101,10 @@ DARKMODE
   --radio-group-dot: var(--alt-color);
 
   /* Drop Shadow */
-  --shadow-stroke: 0 0 0 1px rgba(4,4,5,0.15) ;
-  --shadow-low: 0 1px 0 rgba(18, 20, 36, 0.767),0 1.5px 0 rgba(6,6,7,0.05),0 2px 0 rgba(4,4,5,0.05) ;
-  --shadow-medium: 0 4px 4px rgba(0,0,0,0.16) ;
-  --shadow-high: 0 8px 16px rgba(0,0,0,0.24) ;
+  --shadow-stroke: 0 0 0 1px rgba(4,4,5,0.15);
+  --shadow-low: 0 1px 0 rgba(18, 20, 36, 0.767),0 1.5px 0 rgba(6,6,7,0.05),0 2px 0 rgba(4,4,5,0.05);
+  --shadow-medium: 0 4px 4px rgba(0,0,0,0.16);
+  --shadow-high: 0 8px 16px rgba(0,0,0,0.24);
 
   /* Scollbars */
   --scrollbars: flex;
