@@ -1,7 +1,7 @@
 # Microsoft Teams (v0.0.8 - Latest)
 Discord Theme Based On MicrosoftTeams Application For Windows11
 
-![preview](https://i.imgur.com/piP5tgr.png)
+![preview](https://cdn.discordapp.com/attachments/826113708957761556/878973579084062730/unknown.png)
 
 ## How To Install MS Teams Theme?
 
@@ -25,8 +25,7 @@ For **Goosemod** Users:
 1. Search The Store
 2. Import
 
-#Screenshots
-
+# Screenshots
 
 Red
 
