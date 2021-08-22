@@ -27,13 +27,31 @@ For **Goosemod** Users:
 
 #Screenshots
 
-Darkmode
 
-![preview](https://i.imgur.com/ueFHwMA.png)
+Red
 
-Lightmode
+![preview](https://cdn.discordapp.com/attachments/826113708957761556/878971482745765908/unknown.png)
 
-![preview](https://i.imgur.com/Mx6YHBu.png)
+Green
+
+![preview](https://cdn.discordapp.com/attachments/826113708957761556/878971599997530172/unknown.png)
+
+Yellow
+
+![preview](https://cdn.discordapp.com/attachments/826113708957761556/878971692922339349/unknown.png)
+
+MS Teams Purple
+
+![preview](https://cdn.discordapp.com/attachments/826113708957761556/878971994824118292/unknown.png)
+
+Discords Blue
+
+![preview](https://cdn.discordapp.com/attachments/826113708957761556/878972236822888458/unknown.png)
+
+
+Pink
+
+![preview](https://cdn.discordapp.com/attachments/826113708957761556/878973056473792542/unknown.png)
 
 Real Microsoft Teams App
 
