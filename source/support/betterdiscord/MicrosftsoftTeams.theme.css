@@ -1,7 +1,7 @@
 /**
  * @name MicrosoftTeams
  * @author Leeprky#2063
- * @version 0.0.8
+ * @version 0.0.9
  * @description (ALPHA)
  * @source https://github.com/leeprky/MicrosoftTeams
  * @updateUrl https://raw.githubusercontent.com/leeprky/MicrosoftTeams/main/source/support/betterdiscord/MicrosftsoftTeams.theme.css
@@ -10,9 +10,10 @@
  * @donate https://www.paypal.com/paypalme/leeparkinson22
  * @website https://leeprky.github.io/
 */
+
 /* MS Teams Theme - Dev */
 @import "https://leeprky.github.io/themes/MicrosoftTeams/master-import.css";
-@import url('https://snappercord.github.io/Settings-Icons/source.css');:root {--outdated_msteams-004: none !important; --version: "0.0.8 (ALPHA)" !important; --build: "004" !important}
+@import url('https://snappercord.github.io/Settings-Icons/source.css');
 
 :root {
 
@@ -38,7 +39,7 @@
     --button-hover-transform: scale(1.03);
 
     --settings-icon-color: var(--alt-color2);
-    --settings-subscriptions: #7289da;
+    --settings-subscriptions: var(--alt-color2);
     --settings-hypesquad: #fbb848;
     --settings-logout: #f04747;
  
@@ -54,6 +55,7 @@
     /* Status Colours */
     --purple: #464775;
     --red: #B1273E;
+    --call-button-red: #AF243D;
     --yellow: #FDB913;
     --green: #92C353;
 
@@ -77,7 +79,7 @@
       --channeltextarea-background: var(--background-secondary);
    
       --alt-color: 70, 71, 117;
-      --alt-color2: #464775 ;
+      --alt-color2: #464775;
       --alt-color3: 239 ;/* HSL */
       
       --playing-color: var(--alt-color2) ;
@@ -93,6 +95,7 @@
        --text-normal: #F0F0F0 ;
        --text-muted: #B3B3B3 ;
        --text-link: var(--alt-color2) ;
+       --text-link-self: #989bff ;
        --channels-default: #dddddd ;
        --interactive-normal: #F0F0F0 ;
        --interactive-hover: #F0F0F0 ;
@@ -102,7 +105,7 @@
        --interactive-muted: #585858 ;
       
        /* Background Colours */
-       --background-primary: #1F1F1F ;
+       --background-primary: #1f1f1f ;
        --background-primary-alt: #111111 ;
        --background-secondary: #141414 ;
        --background-secondary-alt: #0a0a0a;
@@ -145,6 +148,7 @@
           
       /* Other */
       --radio-group-dot-foreground: var(--alt-color) ;
+      --text-positive: var(--green-color) !important;
       }
    
     .theme-light {
@@ -221,4 +225,8 @@
           
       /* Other */
       --radio-group-dot-foreground: var(--alt-color2) ;/* Ignore */
+      --text-positive: var(--green-color) !important;
       }
+
+
+:root {--outdated_msteams-005: none !important; --version: "0.0.9 (ALPHA)" !important; --build: "005" !important}
