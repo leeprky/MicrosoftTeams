@@ -1,12 +1,12 @@
 {	
 "name": "MicrosoftTeams",
 "description": "ALPHA - MS TEAMS THEME",
-"version": "0.0.8",
+"version": "0.0.9",
 "author": "Leeprky#2063",
 "license": "MIT",
 "theme": "MicrosoftTeams-config.css",
 "splashTheme": "splash.css",
 "consent": "true",
-"preview": ["https://camo.githubusercontent.com/13e40c0f0e608dec0855a750ea411debca263c784019198212305ecd31109fc3/68747470733a2f2f692e696d6775722e636f6d2f7a7a6c767264632e706e67"],
+"preview": ["https://cdn.discordapp.com/attachments/826113708957761556/878973579084062730/unknown.png"],
 "discord": "Ff3rqAYB89"
 }
