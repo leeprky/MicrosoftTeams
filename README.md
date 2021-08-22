@@ -29,7 +29,7 @@ For **Goosemod** Users:
 
 Rainbow Bar
 
-![preview](https://gyazo.com/58ca13a1976ed2e00a612955142c4ad8)
+![preview](https://gyazo.com/58ca13a1976ed2e00a612955142c4ad8.gif)
 
 Red
 
