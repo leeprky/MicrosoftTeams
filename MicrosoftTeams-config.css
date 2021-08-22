@@ -32,7 +32,18 @@
 ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
 */
 
-/* work in progress */
+/*
+:root{
+	--glasscord-win-blur: blurbehind;
+	--glasscord-macos-vibrancy: fullscreen-ui;
+	--glasscord-linux-blur: true;
+	--glasscord-blur-corner-radius: 20px;
+	--glasscord-titlebar: default;
+}
+#app-mount{
+	background-color: transparent !important;
+	border-radius: var(--glasscord-blur-corner-radius) !important;
+}
 
 /*
 ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
@@ -49,6 +60,7 @@
   --main-colour3: 163 !important; 
 }
 */
+
 /* - PINK
 :root {
   --main-colour: 220, 0, 115 !important; 
@@ -56,6 +68,7 @@
   --main-colour3: 329 !important; 
 }
 /*
+
 /* - BLUE
 :root {
   --main-colour: 0, 161, 228 !important; 
@@ -63,6 +76,7 @@
   --main-colour3: 198 !important; 
 }  
 */
+
 /* - ORANGE
 :root {
   --main-colour: 255, 132, 39 !important; 
@@ -70,6 +84,7 @@
   --main-colour3: 26 !important; 
 }
 */
+
 /* - YELLOW
 :root {
   --main-colour: 233, 196, 106!important; 
@@ -77,6 +92,7 @@
   --main-colour3: 26 !important; 
 }
 */
+
 /* - RED
 :root {
   --main-colour: 165, 36, 61!important; 
@@ -84,6 +100,7 @@
   --main-colour3: 348 !important; 
 }
 */
+
 /* - CYAN
 :root {
   --main-colour: 50, 144, 143 !important; 
@@ -91,6 +108,7 @@
   --main-colour3: 179 !important; 
 }
 */
+
 /* - PLUM
 :root {
   --main-colour: 145, 47, 86 !important; 
@@ -116,7 +134,7 @@
 remove the /* remove above the import (have none of the options above toggled) and choice between custom or preset schemes..
 */
 
-/* 
+/*
 @import "https://leeprky.github.io/themes/MicrosoftTeams/source/TopBar/main.css";
 :root {
   --speed: 16s !important
@@ -135,15 +153,16 @@ remove the /* remove above the import (have none of the options above toggled) a
 }
 
 /* Red To Blue Scheme */
-/* REMOVE
+/*
 :root { 
   --topbar-animation-colour: 0deg, #b7094c, #a01a58, #892b64, #723c70, #5c4d7d,
-                                   #455e89, #2e6f95, #1780a1, #0091ad, #5c4d7d,
-                                   #723c70, #892b64, #a01a58, #b7094c          ;
+                                   #455e89, #2e6f95, #1780a1, #0091ad, #1780a1,
+                                   #2e6f95, #455e89, #5c4d7d, #723c70, #892b64,
+                                   #a01a58, #b7094c;
 }
 
- /* CUSTOM COLOUR HERE */ /* DISABLE THE OCEAN PRESET TO ENABLE THIS */
- /* REMOVE
+/* CUSTOM COLOUR HERE */ /* DISABLE THE OCEAN PRESET TO ENABLE THIS */
+/*
  :root { 
   --topbar-animation-colour: 124deg, red, yellow, green, orange, purple, blue !important;
 }
@@ -379,4 +398,4 @@ remove the /* remove above the import (have none of the options above toggled) a
 ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
 */
 
-:root {--outdated_msteams-006: none !important; --version: "0.1.0" !important; --build: "006" !important}
+:root {--outdated_msteams-006: none !important; --version: "0.1.0 (ALPHA)" !important; --build: "006" !important}
