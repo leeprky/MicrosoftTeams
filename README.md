@@ -27,7 +27,7 @@ For **Goosemod** Users:
 
 # Screenshots
 
-Rainbow Bar
+Customisable Gradient Bar
 
 ![preview](https://gyazo.com/58ca13a1976ed2e00a612955142c4ad8.gif)
 
