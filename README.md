@@ -1,7 +1,7 @@
 # Microsoft Teams (v0.1.1 - Latest)
 Discord Theme Based On MicrosoftTeams Application For Windows11
 
-![preview](https://cdn.discordapp.com/attachments/826113708957761556/878973579084062730/unknown.png)
+![preview](https://i.imgur.com/KHJOyus.png)
 
 ## How To Install MS Teams Theme?
 
