@@ -17,6 +17,7 @@
 */
 
 @import "https://leeprky.github.io/themes/MicrosoftTeams/master-import.css";
+@import "https://leeprky.github.io/themes/MicrosoftTeams/source/client/powercord/powercord.css";
 
 /*
 ░▒█▀▀▄░▒█░▒█░▒█▀▀▀█░▀▀█▀▀░▒█▀▀▀█░▒█▀▄▀█░▀█▀░▒█▀▀▀█░█▀▀▄░▀▀█▀▀░▀█▀░▒█▀▀▀█░▒█▄░▒█
@@ -30,6 +31,7 @@
 ██ █▀▀██ ████ ▀▀ ██▄▄▄▀▀██▄▄▄▀▀██ █████ ███ ██ ▀▀▄██ ██ 
 ██ ▀▀▄██ ▀▀ █ ██ ██ ▀▀▀ ██ ▀▀▀ ██ ▀▀▄██ ▀▀▀ ██ ██ ██ ▀▀ 
 ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+work in progress
 */
 
 /*
@@ -47,83 +49,70 @@
 
 /*
 ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+██ ▄▄▄ ██ ▄▄▀██ ██ ██ ▄▄▄██ ▄▀▄ ██ ▄▄▄██ ▄▄▄ 
+██▄▄▄▀▀██ █████ ▄▄ ██ ▄▄▄██ █ █ ██ ▄▄▄██▄▄▄▀▀
+██ ▀▀▀ ██ ▀▀▄██ ██ ██ ▀▀▀██ ███ ██ ▀▀▀██ ▀▀▀ 
+▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+these schemes are to be used standalone - so disadle all other imports!!!
+*/
+
+/* Ovel */
+/*@import "https://leeprky.github.io/themes/MicrosoftTeams/source/themes/schemes/ovel-scheme.css";
+
+/* Lode */
+/*@import "https://leeprky.github.io/themes/MicrosoftTeams/source/themes/schemes/lode-scheme.css";
+
+/* Naive */
+/*@import "https://leeprky.github.io/themes/MicrosoftTeams/source/themes/schemes/naive-scheme.css";
+
+/* Slook */
+/*@import "https://leeprky.github.io/themes/MicrosoftTeams/source/themes/schemes/slook-scheme.css";
+
+/* Linix Mint */
+/*@import "https://leeprky.github.io/themes/MicrosoftTeams/source/themes/schemes/linix-mint-scheme.css";
+
+/* Couve */
+/*@import "https://leeprky.github.io/themes/MicrosoftTeams/source/themes/schemes/couve-scheme.css";
+
+/* Duvbox */
+/*@import "https://leeprky.github.io/themes/MicrosoftTeams/source/themes/schemes/duvbox-scheme.css";
+*/
+
+
+/*
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
 ██ ▄▄▀██ ▄▄▄ ██ █████ ▄▄▄ ██ ██ ██ ▄▄▀██ ▄▄▄ 
 ██ █████ ███ ██ █████ ███ ██ ██ ██ ▀▀▄██▄▄▄▀▀
 ██ ▀▀▄██ ▀▀▀ ██ ▀▀ ██ ▀▀▀ ██▄▀▀▄██ ██ ██ ▀▀▀ 
 ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
 */
 
-/* - GREEN
-:root {
-  --main-colour: 0, 166, 118 !important; 
-  --main-colour2: #00A676 !important; 
-  --main-colour3: 163 !important; 
-}
-*/
+/* - GREEN */
+/*@import "https://leeprky.github.io/themes/MicrosoftTeams/source/themes/green.css";
 
-/* - PINK
-:root {
-  --main-colour: 220, 0, 115 !important; 
-  --main-colour2: #DC0073 !important; 
-  --main-colour3: 329 !important; 
-}
-/*
+/* - PINK */
+/*@import "https://leeprky.github.io/themes/MicrosoftTeams/source/themes/pink.css";
 
-/* - BLUE
-:root {
-  --main-colour: 0, 161, 228 !important; 
-  --main-colour2: #00A1E4 !important; 
-  --main-colour3: 198 !important; 
-}  
-*/
+/* - BLUE */
+/*@import "https://leeprky.github.io/themes/MicrosoftTeams/source/themes/blue.css";
 
-/* - ORANGE
-:root {
-  --main-colour: 255, 132, 39 !important; 
-  --main-colour2: #FF8427 !important; 
-  --main-colour3: 26 !important; 
-}
-*/
+/* - ORANGE */
+/*@import "https://leeprky.github.io/themes/MicrosoftTeams/source/themes/orange.css";
 
-/* - YELLOW
-:root {
-  --main-colour: 233, 196, 106!important; 
-  --main-colour2: #e7b945 !important; 
-  --main-colour3: 26 !important; 
-}
-*/
+/* - YELLOW */
+/*@import "https://leeprky.github.io/themes/MicrosoftTeams/source/themes/yellow.css";
 
-/* - RED
-:root {
-  --main-colour: 165, 36, 61!important; 
-  --main-colour2: #A5243D !important; 
-  --main-colour3: 348 !important; 
-}
-*/
+/* - RED */
+/*@import "https://leeprky.github.io/themes/MicrosoftTeams/source/themes/red.css";
 
-/* - CYAN
-:root {
-  --main-colour: 50, 144, 143 !important; 
-  --main-colour2: #32908F !important; 
-  --main-colour3: 179 !important; 
-}
-*/
+/* - CYAN */
+/*@import "https://leeprky.github.io/themes/MicrosoftTeams/source/themes/cyan.css";
 
-/* - PLUM
-:root {
-  --main-colour: 145, 47, 86 !important; 
-  --main-colour2: #912F56 !important; 
-  --main-colour3: 336 !important; 
-}
-*/
+/* - PLUM */
+/* @import "https://leeprky.github.io/themes/MicrosoftTeams/source/themes/plum.css";
 
-/* - BROWN
-:root {
-  --main-colour: 90, 58, 49!important; 
-  --main-colour2: #5A3A31  !important; 
-  --main-colour3: 13 !important; 
-}
-*/
+/* - BROWN */
+/*@import "https://leeprky.github.io/themes/MicrosoftTeams/source/themes/brown,.css";
 
 /*
 ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
@@ -137,7 +126,7 @@ remove the /* remove above the import (have none of the options above toggled) a
 /*
 @import "https://leeprky.github.io/themes/MicrosoftTeams/source/TopBar/main.css";
 :root {
-  --speed: 16s !important
+  --speed: 16s !important 
 }
 
 /* Ocean Scheme */
@@ -162,7 +151,7 @@ remove the /* remove above the import (have none of the options above toggled) a
 }
 
 /* CUSTOM COLOUR HERE */ /* DISABLE THE OCEAN PRESET TO ENABLE THIS */
-/*
+/*  
  :root { 
   --topbar-animation-colour: 124deg, red, yellow, green, orange, purple, blue !important;
 }
@@ -255,13 +244,32 @@ remove the /* remove above the import (have none of the options above toggled) a
   --shadow-high: 0 8px 16px rgba(0,0,0,0.24);
 
   /* Scollbars */
-  --scrollbars: flex;
+  --scrollbars: flex; /* Flex To See Scrollbars / None For None */
   --scrollbar-small: #797979;
   --scrollbar-small-track: transparent;
   --scrollbar-large-thumb: #797979;
   --scrollbar-large-track: transparent;
   --scrollbar-small-scrollbar-color: #6c6c6c;
   --scrollbar-small-scrollbar-color-track: transparent;
+
+  /* Button Gradients */
+  --default-gradient: 315deg, rgba(var(--alt-color), 0.6) 0%, rgba(var(--alt-color), 0.8) 74%;
+  --special-gradient: 315deg, rgba(var(--alt-color), 0.1) 0%, #c987b8 74%;
+  --red-gradient: 315deg, #AA3738 0%, #F04747 74%;
+  --red-hsl: hsl(359, 63%, 53%);
+  --yellow-gradient: 315deg, #c29b1b 0%, #ffa640 74%;
+  --yellow-hsl: hsl(46, 72%, 52%);
+  --green-gradient: 315deg, #507a73 0%, #4b7c72  74%;
+  --grey-gradient: 315deg, rgba(var(--alt-color), 0.6) 0%, rgba(var(--alt-color), 0.8) 74%;
+  --white-gradient: 315deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.342) 74%;
+  --font-normal: 500;
+  --font-hover: bold;
+  --font-size-hover: 15px;
+  --hover-transition: 0.1s linear;
+  --transform-normal: scale(1);
+  --hover-transform: scale(1.15);
+  --setting-hover-transform: scale(1.025);
+  --button-hover-transform: scale(1.03);
 
   /* Others */
 
@@ -380,7 +388,27 @@ remove the /* remove above the import (have none of the options above toggled) a
   --scrollbar-small-scrollbar-color: #6c6c6c;
   --scrollbar-small-scrollbar-color-track: transparent;
 
+  /* Button Gradients */
+  --default-gradient: 315deg, rgba(var(--alt-color), 0.6) 0%, rgba(var(--alt-color), 0.8) 74%;
+  --special-gradient: 315deg, rgba(var(--alt-color), 0.1) 0%, #c987b8 74%;
+  --red-gradient: 315deg, #AA3738 0%, #F04747 74%;
+  --red-hsl: hsl(359, 63%, 53%);
+  --yellow-gradient: 315deg, #c29b1b 0%, #ffa640 74%;
+  --yellow-hsl: hsl(46, 72%, 52%);
+  --green-gradient: 315deg, #507a73 0%, #4b7c72  74%;
+  --grey-gradient: 315deg, rgba(var(--alt-color), 0.6) 0%, rgba(var(--alt-color), 0.8) 74%;
+  --white-gradient: 315deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.342) 74%;
+  --font-normal: 500;
+  --font-hover: bold;
+  --font-size-hover: 15px;
+  --hover-transition: 0.1s linear;
+  --transform-normal: scale(1);
+  --hover-transform: scale(1.15);
+  --setting-hover-transform: scale(1.025);
+  --button-hover-transform: scale(1.03);
+
   /* Others */
+  
 
   /* Modals */
   --user-modal-avatar-size: 230px;
@@ -398,4 +426,4 @@ remove the /* remove above the import (have none of the options above toggled) a
 ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
 */
 
-:root {--outdated_msteams-006: none !important; --version: "0.1.0 (ALPHA)" !important; --build: "006" !important}
+:root {--outdated_msteams-007: none !important; --version: "0.1.1 (ALPHA)" !important; --build: "007" !important}
