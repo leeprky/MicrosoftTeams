@@ -414,7 +414,7 @@ remove the /* remove above the import (have none of the options above toggled) a
 
   /* Modals */
   --user-modal-avatar-size: 230px;
-  --blur-the-things: 0;
+  --blur-the-things: 0px;
   --premium-size: 480px;
   --premium-opacity: .13;
   --premium-blur: blur(1.2px)
