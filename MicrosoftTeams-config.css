@@ -31,20 +31,20 @@
 ██ █▀▀██ ████ ▀▀ ██▄▄▄▀▀██▄▄▄▀▀██ █████ ███ ██ ▀▀▄██ ██ 
 ██ ▀▀▄██ ▀▀ █ ██ ██ ▀▀▀ ██ ▀▀▀ ██ ▀▀▄██ ▀▀▀ ██ ██ ██ ▀▀ 
 ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
-work in progress
 */
 
 /*
+@import "https://leeprky.github.io/themes/MicrosoftTeams/source/glasscord/glasscord-source.css";
+
 :root{
 	--glasscord-win-blur: blurbehind;
 	--glasscord-macos-vibrancy: fullscreen-ui;
 	--glasscord-linux-blur: true;
 	--glasscord-blur-corner-radius: 20px;
 	--glasscord-titlebar: default;
-}
-#app-mount{
-	background-color: transparent !important;
-	border-radius: var(--glasscord-blur-corner-radius) !important;
+
+  --glasscord-background: #1f1f1fc0 !important;
+  --glasscord-floating: #1f1f20ea !important;  
 }
 
 /*
